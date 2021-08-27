@@ -11,7 +11,6 @@ public class MainController {
     public String home(Model model) {
         model.addAttribute("title");
         return "home";
-        System.out.print("обновить");
     }
 
 }
